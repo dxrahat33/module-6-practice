@@ -15,7 +15,7 @@ main{
 
 /* star - banner design */
 .banner{
-    height: 700px;
+    /* height: 400px; */
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Banner\ Image.png");
     background-position: center;
@@ -29,20 +29,20 @@ main{
 .banner h4{
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0%;
     text-align: center;
-    margin: 30px 0;
+    margin: 177px 344px 0 344px;
 }
 .banner h1{
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 40px;
     font-weight: 900;
-    line-height: 95px;
+    line-height: 60px;
     letter-spacing: 0%;
     text-align: center;
-    margin: 0 344px;
+    margin: 16px 344px 144px 344px;
 }
