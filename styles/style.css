@@ -5,294 +5,135 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-/* start - main CSS */
-main{
-    margin: 50px 140px 0px 140px;
-}
-/* end - main CSS */
-
-/* star - banner design */
-.banner{
-    width: auto;
-    border-radius: 16px;
-    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Banner\ Image.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-}
-.banner h4{
-    color: rgb(255, 255, 255);
-    font-family: Merriweather;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 4px;
-    text-align: center;
-    margin: 177px 344px 0 344px;
-}
-.banner h1{
-    color: rgb(255, 255, 255);
-    font-family: Merriweather;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0px;
-    text-align: center;
-    margin: 16px 300px 144px 300px;
-}
-
-/* discount sections */
-.dis-section{
-    max-width: 641px;
+main {
+    max-width: 1320px;
     margin: 0 auto;
 }
-.dis-section img{
-    width: 640px;
-}
-.dis-section .dis-rate{
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 85px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-top: 96px;
-    margin-bottom: 39px;
-}
-.dis-section .dis-para{
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 16px;
-}
-.dis-section .dis-description {
-    color: rgb(7, 2, 17);
-    font-family: Inter;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 46px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 48px;
-}
-/* party section */
-.party-section{
-    margin-top: 120px;
+.header{
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
-    display: flex;
-    background-position: center;
-    background-size: cover;
-}
-.party-section .party-title{
-    color: rgb(255, 255, 255);
-    font-family: Merriweather;
-    font-size: 60px;
-    font-weight: 900;
-    line-height: 70px;
-    letter-spacing: 6%;
-    text-align: left;
-    margin: 100px 0 24px 100px;
-}
-.party-section .party-para{
-    max-width: 550px;
-    color: rgba(255, 255, 255, 0.8);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-left: 100px;
-}
-.party-images img{
-    width: 250px;
-    height: 400px;
-    margin: 80px 82px 54px 0;
-}
-.party-section .party-btn{
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    margin: 68px 0 124px 158px;
-
-}
-.place-section{
-    border-radius: 16px;
-    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
-    text-align: center;
-}
-.place-section span{
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 30px;
-}
-.place-section .place-sec-text{
-    font-family: Inter;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 40px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: capitalize;
-}
-.place-section{
-    margin-top: 120px;
-    align-items: center;
-    text-align: center;
-    padding: 85px 240px 40px 250px;
-}
-.orange-btn{
-    border-radius: 8px;
-    background: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 16px 32px;
-    outline: none;
-    border: none;
-    margin-top: 48px;
-    margin-bottom: 110px;
-}
-.offer-section{
-    display: flex;
-    margin-top: 120px;
-    gap: 20px;
-    align-items: center;
-}
-.offer-section p{
-    width: 314px;
-}
-.offer-section .offer-text h3{
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.offer-section .offer-text h1{
-    color: rgb(7, 2, 17);
-    font-family: Merriweather;
-    font-size: 38px;
-    font-weight: 900;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: capitalize;
-    margin-top: 16px;
-    margin-bottom: 22px;
-}
-.offer-section .offer-text p{
-    color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0%;
-    text-align: left;
-}
-.offer-section .offer-image img{
-    box-sizing: border-box;
-    width: 350px;
-    text-align: center;
-    border: 12px solid #FF0000;
-    padding: 30px;
-    border-radius: 50%;
-}
-.offer-section .offer-year-logo{
-    text-align: left;
-    align-items: flex-end;
-    margin-left: 20px;
-}
-.offer-section .offer-year-logo h1{
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-top: 75px;
-}
-.offer-section .offer-year-logo p{
-    width: 250px;
-    color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-top: 16px;
-    margin-bottom: 28px;
-}
-.offer-section .offer-year-logo img{
-    position: bottom right;
-}
-
-/* Holiday sections */
-.holiday-section{
-    margin-top: 120px;
-}
-.holiday-section .holiday-text-section{
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 600px;
+    margin-top: 50px;
 }
-.holiday-section .holiday-text-section h4{
-    color: rgb(7, 2, 17);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
+.header-textbox h4{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
     letter-spacing: 0%;
+    text-align: center;
+    margin-top: 177px;
 }
-.holiday-section .holiday-text-section h1{
+.header-textbox h1{
+    color: rgb(255, 255, 255);
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-    line-height: 91px;
+    line-height: 95px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 16px;
+    margin: 16px 344px 177px 344px;
 }
-span{
+.off-section{
+    /* border: 5px solid orange; */
+    width: 802.9px;
+    height: 806px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    text-align: center;
+}
+.off-section .off-textbox h1{
     color: rgb(255, 0, 0);
-}
-.holiday-section .holiday-text-section p{
-    color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 19px;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 28px;
-    padding: 0 65px 0 65px;
+}
+.off-section .off-textbox h6{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+.off-section .off-textbox h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.off-section .off-image{
+    width: 802px;
+}
+.mid-section {
+    position: relative;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+
+}
+.mid-textbox h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-left: 126px;
+    margin-right: 400px;
+}
+.mid-textbox p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 126px;
+    margin-right: 100px;
+}
+.mid-textbox .mid-btn {
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: transparent;
+    /* margin: 48px 0 0 158px; */
+    cursor: pointer;
+}
+.mid-textbox .mid-btn:hover{
+    background-color: rgb(255, 0, 0);
+    border-radius: 25px;
+    /* padding: 15px; when I used padding position changed when hover mouse icon */
+}
+.mid-year img{
+    width: 349.16px;
+    height: 464.65px;
+    margin: 68px 108px 68px 0;
 }
