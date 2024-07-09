@@ -83,7 +83,8 @@ main {
     width: 802px;
 }
 .mid-section {
-    position: relative;
+    margin-top: 120px;
+    margin-bottom: 120px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
     display: flex;
@@ -124,16 +125,148 @@ main {
     border: none;
     outline: none;
     background: transparent;
-    /* margin: 48px 0 0 158px; */
+    margin: 48px 0 0 158px;
     cursor: pointer;
 }
 .mid-textbox .mid-btn:hover{
     background-color: rgb(255, 0, 0);
     border-radius: 25px;
+    transition: 0.6s all ease;
     /* padding: 15px; when I used padding position changed when hover mouse icon */
 }
 .mid-year img{
     width: 349.16px;
     height: 464.65px;
     margin: 68px 108px 68px 0;
+}
+.place-section{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid goldenrod; */
+}
+.place-section .place-textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+.place-section .place-btn{
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background: rgb(255, 0, 0);
+    margin-top: 48px;
+}
+.comming-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    height: 463px;
+    /* border: 5px solid; */
+}
+.comming-section .comming-textbox h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 104px;
+}
+.comming-section .comming-textbox h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.comming-section .comming-textbox p{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.comming-section .offer-text h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 112px;
+}
+.comming-section .offer-text p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    justify-content: right;
+    margin-top: 16px;
+}
+.comming-section .offer-image img{
+    padding: 39px;
+    border-radius: 50%;
+    border: 15px solid rgb(255, 0, 0);
+    width: 450px;
+    background-size: cover;
+}
+.comming-section .offer-yearimg img{
+    margin-top: 26px;
+}
+.holiday-section{
+    position: relative;
+    height: 986px;
+    border: 5px solid red;
+    margin-top: 120px;
+}
+
+.holiday-section .holiday-container{
+    position: absolute;
+    width: 1320px;
+    height: 229px;
+    top: 757px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
 }
