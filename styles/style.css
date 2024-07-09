@@ -258,8 +258,9 @@ span{
 .holiday-section{
     position: relative;
     height: 986px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .holiday-section .holiday-container{
@@ -267,6 +268,88 @@ span{
     width: 1320px;
     height: 229px;
     top: 757px;
-    border-radius: 16px 0px 16px 16px;
+    border-radius: 0px 0px 16px 16px;
     background: rgb(255, 0, 0);
+}
+.holiday-section .holiday-textbox h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.holiday-section .holiday-textbox h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+.holiday-section .holiday-textbox p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+.holiday-imgbox img{
+    width: 674px;
+    position: absolute;
+    left: 80px;
+    z-index: 1;
+    bottom: 5px;
+}.holiday-disimg img{
+    position: absolute;
+    left: 970px;
+    top: 400px;
+}
+.portfolio-section{
+    height: 1163px;
+    border: 5px solid yellowgreen;
+}
+.portfolio-section .port-textbox h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.portfolio-section .port-textbox h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.portfolio-section .port-textbox p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.portfolio-section .port-imgcontainer{
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; */
 }
